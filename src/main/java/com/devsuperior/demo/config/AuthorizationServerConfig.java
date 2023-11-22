@@ -1,8 +1,8 @@
 package com.devsuperior.demo.config;
 
-import com.felipe.demo.config.customgrant.CustomPasswordAuthenticationConverter;
-import com.felipe.demo.config.customgrant.CustomPasswordAuthenticationProvider;
-import com.felipe.demo.config.customgrant.CustomUserAuthorities;
+import com.devsuperior.demo.config.customgrant.CustomPasswordAuthenticationConverter;
+import com.devsuperior.demo.config.customgrant.CustomPasswordAuthenticationProvider;
+import com.devsuperior.demo.config.customgrant.CustomUserAuthorities;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.JWKSource;
