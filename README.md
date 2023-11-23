@@ -5,6 +5,7 @@
 ## Índice
 
 - [Sobre](#sobre)
+- [Regras](#regras)
 - [Como executar o projeto](#como-executar-o-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como Contribuir](#como-contribuir)
@@ -23,16 +24,34 @@ A especificação do que foi implementado está no próprio código fonte dos te
 
 [Voltar ao Índice](#índice)
 
+## Regras
+
+### Regras de controle de acesso:
+ - Somente rotas de leitura (GET) de eventos e cidades são públicas (não requer login).
+ - Usuários CLIENT e/ou ADMIN podem inserir novos eventos (POST).
+ - Os demais acessos são permitidos apenas a usuários ADMIN.
+
+### Regras de validação de City:
+ - Nome não pode ser vazio
+
+### Regras de validação de Event:
+ - Nome não pode ser vazio
+ - Data não pode ser passada
+ - Cidade não pode ser nula
+
+
+[Voltar ao Índice](#índice)
+
 
 ## Como executar o projeto
 
 1. Clonar o projeto a partir do GitHub
 
-   ````https://github.com/felipeam10/TDD-Event-City````
+   ````https://github.com/felipeam10/Validacao-e-Seguranca````
 
 2. Em sua IDE de preferência, abra o projeto a partir do diretório que o mesmo foi clonado. 
 
-3. Importe as Collections do postman a partir do Link : https://drive.google.com/file/d/1rtStINAsjR7bO5i0A1RMTC5ucyXOzszM/view?usp=drive_link
+3. Importe as Collections do postman a partir do caminho: ````src/main/resources/postmanFiles````
 
 [Voltar ao Índice](#índice)
 
